@@ -1,0 +1,15 @@
+loop_start=0
+loop_end=228.24467875874126
+start_marker=0
+hidden_loop_start=0
+hidden_loop_end=3.996677281052281
+end_marker=228.24467875874126
+loop_on=0
+warp_on=1
+warp_markers=2
+marker[0]=0.28285714285714286,0
+marker[1]=0.29990259740259739,0.03125
+beat 0.0 -> 0.282857143 s @ 110.000000 bpm, sample 12474
+beat 1.0 -> 0.828311688 s @ 110.000000 bpm, sample 36528
+beat 4.0 -> 2.464675325 s @ 110.000000 bpm, sample 108692
+beat 16.0 -> 9.010129870 s @ 110.000000 bpm, sample 397346

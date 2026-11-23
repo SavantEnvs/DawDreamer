@@ -1,0 +1,11 @@
+project: savantenvs/DawDreamer
+target: fuzz_midi
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_midi/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_midi
+    libfuzzer: true
+    timeout: 10

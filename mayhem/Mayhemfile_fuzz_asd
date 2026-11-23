@@ -1,0 +1,11 @@
+project: savantenvs/DawDreamer
+target: fuzz_asd
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_asd/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_asd
+    libfuzzer: true
+    timeout: 10
